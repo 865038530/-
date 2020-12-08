@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: springboot-profile
+  profiles:  #指定执行环境
+    active: @package.environment@
